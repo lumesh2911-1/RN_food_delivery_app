@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import StackNavigator from "./src/navigation/stack/StackNavigator";
 
-export default function App() {
+export default function NotificationScreen() {
   return (
-    <>
-      <StackNavigator />
-    </>
+    <View>
+      <Text>NotificationScreen</Text>
+    </View>
   );
 }
 
