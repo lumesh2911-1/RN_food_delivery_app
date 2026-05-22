@@ -1,15 +1,6 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableOpacity,
-  StatusBar,
-} from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 import React from "react";
-import { useNavigation } from "@react-navigation/native";
 import { COLORS } from "../../utils/colors";
-import { FONTS } from "../../utils/fonts";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function SplashScreen() {

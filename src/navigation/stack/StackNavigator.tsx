@@ -7,6 +7,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import DrawerNavigator from "../drawer/DrawerNavigator";
 import { navigationRef } from "../../utils/fonts";
 import OnboardingScreen from "../../screens/common/OnboardingScreen";
+import LoginScreen from "../../screens/auth/LoginScreen";
+import RegisterScreen from "../../screens/auth/RegisterScreen";
 
 const Stack = createStackNavigator();
 
@@ -34,6 +36,16 @@ export default function StackNavigator() {
         <Stack.Screen
           name="onboarding"
           component={OnboardingScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="login"
+          component={LoginScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="register"
+          component={RegisterScreen}
           options={{ headerShown: false }}
         />
         <Stack.Screen name="drawer" component={DrawerNavigator} />
