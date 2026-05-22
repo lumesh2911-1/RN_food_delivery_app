@@ -7,10 +7,10 @@ import { Ionicons } from "@expo/vector-icons";
 import HomeScreen from "./HomeScreen";
 import SearchScreen from "./SearchScreen";
 import OrderScreen from "./OrderScreen";
-import ProfileScreen from "../drawer/ProfileScreen";
 
 import { COLORS } from "../../utils/colors";
 import { FONTS } from "../../utils/fonts";
+import ProfileScreen from "./ProfileScreen";
 
 const Tab = createBottomTabNavigator();
 
