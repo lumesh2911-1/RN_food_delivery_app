@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export default function DashboardScreen() {
+export default function SearchScreen() {
   return (
     <View>
-      <Text>DashboardScreen</Text>
+      <Text>SearchScreen</Text>
     </View>
   );
 }

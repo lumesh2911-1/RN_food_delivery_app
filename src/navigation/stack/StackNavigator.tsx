@@ -48,8 +48,16 @@ export default function StackNavigator() {
           component={RegisterScreen}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="drawer" component={DrawerNavigator} />
-        <Stack.Screen name="bottom" component={BottomTabNavigator} />
+        <Stack.Screen
+          name="drawer"
+          component={DrawerNavigator}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="bottom"
+          component={BottomTabNavigator}
+          options={{ headerShown: false }}
+        />
         {/* <Stack.Screen name="toptab" component={MaterialTopTabNavigator} /> */}
       </Stack.Navigator>
     </NavigationContainer>
