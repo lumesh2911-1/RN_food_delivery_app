@@ -1,0 +1,18 @@
+export const FONTS = {
+  thin: "DMSans-Thin",
+  thinItalic: "DMSans-ThinItalic",
+  light: "DMSans-Light",
+  lightItalic: "DMSans-LightItalic",
+  regular: "DMSans-Regular",
+  italic: "DMSans-Italic",
+  medium: "DMSans-Medium",
+  mediumItalic: "DMSans-MediumItalic",
+  semiBold: "DMSans-SemiBold",
+  semiBoldItalic: "DMSans-SemiBoldItalic",
+  bold: "DMSans-Bold",
+  boldItalic: "DMSans-BoldItalic",
+  extraBold: "DMSans-ExtraBold",
+  extraBoldItalic: "DMSans-ExtraBoldItalic",
+  black: "DMSans-Black",
+  blackItalic: "DMSans-BlackItalic",
+};
